@@ -10,12 +10,17 @@
 
 #import "DetailViewController.h"
 
+#import "EscarabajoFeoDoc.h"
+#import "EscarabajoFeoData.h"
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
 @end
 
 @implementation MasterViewController
+
+@synthesize arrEscarabajos = _arrEscarabajos;
 
 - (void)awakeFromNib
 {
@@ -30,6 +35,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    self.title = @"Escarabajos Feos";
 }
 
 - (void)viewDidUnload
@@ -40,7 +46,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 - (void)insertNewObject:(id)sender
@@ -60,19 +66,6 @@
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return _objects.count;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
-    return cell;
-}
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -113,6 +106,24 @@
         NSDate *object = [_objects objectAtIndex:indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
     }
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+    return [self.arrEscarabajos count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"MiCeldaBasica"];
+    EscarabajoFeoDoc *escarabajo = [self.arrEscarabajos objectAtIndex:indexPath.row];
+    cell.textLabel.text = escarabajo.data.title;
+    cell.imageView.image = escarabajo.thumbImage;
+    return cell;
 }
 
 @end

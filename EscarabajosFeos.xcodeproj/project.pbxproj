@@ -21,6 +21,18 @@
 		947603BA15CB8A3100C3DCE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9476039815CB8A3100C3DCE6 /* Foundation.framework */; };
 		947603C215CB8A3100C3DCE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947603C015CB8A3100C3DCE6 /* InfoPlist.strings */; };
 		947603C515CB8A3100C3DCE6 /* EscarabajosFeosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947603C415CB8A3100C3DCE6 /* EscarabajosFeosTests.m */; };
+		94ABFBE315CDE64A0044C7A8 /* EscarabajoFeoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFBE215CDE64A0044C7A8 /* EscarabajoFeoData.m */; };
+		94ABFBE615CDEAAD0044C7A8 /* EscarabajoFeoDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFBE515CDEAAD0044C7A8 /* EscarabajoFeoDoc.m */; };
+		94ABFBEF15CDEFF70044C7A8 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBE715CDEFF70044C7A8 /* centipede.jpg */; };
+		94ABFBF015CDEFF70044C7A8 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBE815CDEFF70044C7A8 /* centipedeThumb.jpg */; };
+		94ABFBF115CDEFF70044C7A8 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBE915CDEFF70044C7A8 /* ladybug.jpg */; };
+		94ABFBF215CDEFF70044C7A8 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBEA15CDEFF70044C7A8 /* ladybugThumb.jpg */; };
+		94ABFBF315CDEFF70044C7A8 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBEB15CDEFF70044C7A8 /* potatoBug.jpg */; };
+		94ABFBF415CDEFF70044C7A8 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBEC15CDEFF70044C7A8 /* potatoBugThumb.jpg */; };
+		94ABFBF515CDEFF70044C7A8 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBED15CDEFF70044C7A8 /* wolfSpider.jpg */; };
+		94ABFBF615CDEFF70044C7A8 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBEE15CDEFF70044C7A8 /* wolfSpiderThumb.jpg */; };
+		94ABFBF915CDF1DA0044C7A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBF815CDF1DA0044C7A8 /* Default.png */; };
+		94ABFBFB15CDF1E80044C7A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFBFA15CDF1E80044C7A8 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,20 @@
 		947603C115CB8A3100C3DCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		947603C315CB8A3100C3DCE6 /* EscarabajosFeosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EscarabajosFeosTests.h; sourceTree = "<group>"; };
 		947603C415CB8A3100C3DCE6 /* EscarabajosFeosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscarabajosFeosTests.m; sourceTree = "<group>"; };
+		94ABFBE115CDE64A0044C7A8 /* EscarabajoFeoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EscarabajoFeoData.h; path = Model/EscarabajoFeoData.h; sourceTree = "<group>"; };
+		94ABFBE215CDE64A0044C7A8 /* EscarabajoFeoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EscarabajoFeoData.m; path = Model/EscarabajoFeoData.m; sourceTree = "<group>"; };
+		94ABFBE415CDEAAD0044C7A8 /* EscarabajoFeoDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EscarabajoFeoDoc.h; path = Model/EscarabajoFeoDoc.h; sourceTree = "<group>"; };
+		94ABFBE515CDEAAD0044C7A8 /* EscarabajoFeoDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EscarabajoFeoDoc.m; path = Model/EscarabajoFeoDoc.m; sourceTree = "<group>"; };
+		94ABFBE715CDEFF70044C7A8 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipede.jpg; path = ../centipede.jpg; sourceTree = "<group>"; };
+		94ABFBE815CDEFF70044C7A8 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipedeThumb.jpg; path = ../centipedeThumb.jpg; sourceTree = "<group>"; };
+		94ABFBE915CDEFF70044C7A8 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybug.jpg; path = ../ladybug.jpg; sourceTree = "<group>"; };
+		94ABFBEA15CDEFF70044C7A8 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybugThumb.jpg; path = ../ladybugThumb.jpg; sourceTree = "<group>"; };
+		94ABFBEB15CDEFF70044C7A8 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBug.jpg; path = ../potatoBug.jpg; sourceTree = "<group>"; };
+		94ABFBEC15CDEFF70044C7A8 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBugThumb.jpg; path = ../potatoBugThumb.jpg; sourceTree = "<group>"; };
+		94ABFBED15CDEFF70044C7A8 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpider.jpg; path = ../wolfSpider.jpg; sourceTree = "<group>"; };
+		94ABFBEE15CDEFF70044C7A8 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpiderThumb.jpg; path = ../wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		94ABFBF815CDF1DA0044C7A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94ABFBFA15CDF1E80044C7A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +110,8 @@
 		9476038715CB8A3100C3DCE6 = {
 			isa = PBXGroup;
 			children = (
+				94ABFBFA15CDF1E80044C7A8 /* Default@2x.png */,
+				94ABFBF815CDF1DA0044C7A8 /* Default.png */,
 				9476039C15CB8A3100C3DCE6 /* EscarabajosFeos */,
 				947603BD15CB8A3100C3DCE6 /* EscarabajosFeosTests */,
 				9476039515CB8A3100C3DCE6 /* Frameworks */,
@@ -114,13 +142,9 @@
 		9476039C15CB8A3100C3DCE6 /* EscarabajosFeos */ = {
 			isa = PBXGroup;
 			children = (
-				947603A515CB8A3100C3DCE6 /* AppDelegate.h */,
-				947603A615CB8A3100C3DCE6 /* AppDelegate.m */,
-				947603A815CB8A3100C3DCE6 /* MainStoryboard.storyboard */,
-				947603AB15CB8A3100C3DCE6 /* MasterViewController.h */,
-				947603AC15CB8A3100C3DCE6 /* MasterViewController.m */,
-				947603AE15CB8A3100C3DCE6 /* DetailViewController.h */,
-				947603AF15CB8A3100C3DCE6 /* DetailViewController.m */,
+				94ABFBF715CDF0030044C7A8 /* Imagenes */,
+				94ABFBE015CDE56E0044C7A8 /* Model */,
+				94ABFBDE15CDE54F0044C7A8 /* GUI */,
 				9476039D15CB8A3100C3DCE6 /* Supporting Files */,
 			);
 			path = EscarabajosFeos;
@@ -154,6 +178,46 @@
 				947603C015CB8A3100C3DCE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94ABFBDE15CDE54F0044C7A8 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				947603A515CB8A3100C3DCE6 /* AppDelegate.h */,
+				947603A615CB8A3100C3DCE6 /* AppDelegate.m */,
+				947603A815CB8A3100C3DCE6 /* MainStoryboard.storyboard */,
+				947603AB15CB8A3100C3DCE6 /* MasterViewController.h */,
+				947603AC15CB8A3100C3DCE6 /* MasterViewController.m */,
+				947603AE15CB8A3100C3DCE6 /* DetailViewController.h */,
+				947603AF15CB8A3100C3DCE6 /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		94ABFBE015CDE56E0044C7A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFBE115CDE64A0044C7A8 /* EscarabajoFeoData.h */,
+				94ABFBE215CDE64A0044C7A8 /* EscarabajoFeoData.m */,
+				94ABFBE415CDEAAD0044C7A8 /* EscarabajoFeoDoc.h */,
+				94ABFBE515CDEAAD0044C7A8 /* EscarabajoFeoDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		94ABFBF715CDF0030044C7A8 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFBE715CDEFF70044C7A8 /* centipede.jpg */,
+				94ABFBE815CDEFF70044C7A8 /* centipedeThumb.jpg */,
+				94ABFBE915CDEFF70044C7A8 /* ladybug.jpg */,
+				94ABFBEA15CDEFF70044C7A8 /* ladybugThumb.jpg */,
+				94ABFBEB15CDEFF70044C7A8 /* potatoBug.jpg */,
+				94ABFBEC15CDEFF70044C7A8 /* potatoBugThumb.jpg */,
+				94ABFBED15CDEFF70044C7A8 /* wolfSpider.jpg */,
+				94ABFBEE15CDEFF70044C7A8 /* wolfSpiderThumb.jpg */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +293,16 @@
 			files = (
 				947603A115CB8A3100C3DCE6 /* InfoPlist.strings in Resources */,
 				947603AA15CB8A3100C3DCE6 /* MainStoryboard.storyboard in Resources */,
+				94ABFBEF15CDEFF70044C7A8 /* centipede.jpg in Resources */,
+				94ABFBF015CDEFF70044C7A8 /* centipedeThumb.jpg in Resources */,
+				94ABFBF115CDEFF70044C7A8 /* ladybug.jpg in Resources */,
+				94ABFBF215CDEFF70044C7A8 /* ladybugThumb.jpg in Resources */,
+				94ABFBF315CDEFF70044C7A8 /* potatoBug.jpg in Resources */,
+				94ABFBF415CDEFF70044C7A8 /* potatoBugThumb.jpg in Resources */,
+				94ABFBF515CDEFF70044C7A8 /* wolfSpider.jpg in Resources */,
+				94ABFBF615CDEFF70044C7A8 /* wolfSpiderThumb.jpg in Resources */,
+				94ABFBF915CDF1DA0044C7A8 /* Default.png in Resources */,
+				94ABFBFB15CDF1E80044C7A8 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +341,8 @@
 				947603A715CB8A3100C3DCE6 /* AppDelegate.m in Sources */,
 				947603AD15CB8A3100C3DCE6 /* MasterViewController.m in Sources */,
 				947603B015CB8A3100C3DCE6 /* DetailViewController.m in Sources */,
+				94ABFBE315CDE64A0044C7A8 /* EscarabajoFeoData.m in Sources */,
+				94ABFBE615CDEAAD0044C7A8 /* EscarabajoFeoDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +516,7 @@
 				947603CA15CB8A3100C3DCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947603CB15CB8A3100C3DCE6 /* Build configuration list for PBXNativeTarget "EscarabajosFeosTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +525,7 @@
 				947603CD15CB8A3100C3DCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

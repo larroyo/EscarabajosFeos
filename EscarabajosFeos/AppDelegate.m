@@ -7,12 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "MasterViewController.h"
+#import "EscarabajoFeoDoc.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    EscarabajoFeoDoc *bug1 = [[EscarabajoFeoDoc alloc] initWithTitle:@"Escarabajo Patatero" rating:4 thumbImage:[UIImage imageNamed:@"potatoBugThumb.jpg"] fullImage:[UIImage imageNamed:@"potatoBug.jpg"]];
+    EscarabajoFeoDoc *bug2 = [[EscarabajoFeoDoc alloc] initWithTitle:@"Cienpiés" rating:3 thumbImage:[UIImage imageNamed:@"centipedeThumb.jpg"] fullImage:[UIImage imageNamed:@"centipede.jpg"]];
+    EscarabajoFeoDoc *bug3 = [[EscarabajoFeoDoc alloc] initWithTitle:@"Araña Lobo" rating:5 thumbImage:[UIImage imageNamed:@"wolfSpiderThumb.jpg"] fullImage:[UIImage imageNamed:@"wolfSpider.jpg"]];
+    EscarabajoFeoDoc *bug4 = [[EscarabajoFeoDoc alloc] initWithTitle:@"Mariquita" rating:1 thumbImage:[UIImage imageNamed:@"ladybugThumb.jpg"] fullImage:[UIImage imageNamed:@"ladybug.jpg"]];
+    NSMutableArray *arrBugs = [NSMutableArray arrayWithObjects:bug1, bug2, bug3, bug4, nil];
+    
+    UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
+    MasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
+    masterController.arrEscarabajos = arrBugs;
+    
     return YES;
 }
 							
